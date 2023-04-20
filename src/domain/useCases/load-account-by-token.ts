@@ -7,7 +7,6 @@ export interface LoadAccountByToken {
 
 export namespace LoadAccountByToken {
   export type Result = {
-    accessToken: string;
     id: string;
   };
 }
